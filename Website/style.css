@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.nav{
+    background-color: black;
+    height: 150px;
+    position: sticky;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 12px;
+    color: rgb(254, 62, 84);
+}
+
+.logo img{
+    height: 80px;
+    border: 2px solid gray;
+    border-radius: 50%;
+
+}
+
+
+
+
+.nav-list ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  align-items: center;
+   display: flex;
+   
+}
+
+.nav-list li
+{
+   padding: 7px;
+   font: 300;
+}
+
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-list a:hover{
+    color: rgb(254, 62, 84) ;
+    font-size: 1.2rem;
+    transition:ease-in-out 0.3s ;
+
+}
+
+.img{
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.img img{
+    height: 348px;
+  
+}
+
+.area span{
+    color:rgb(88, 85, 191);
+}
+
+.btn{
+    padding: 5px;
+    margin:20px 0 0;
+    background: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn1{
+    padding: 5px;
+    margin:20px 0 0;
+    background: none;
+    background-color:rgb(88, 85, 191);
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.con{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 37px;
+}
+
+
+
+
+.form{
+    margin: 24px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.form-input{
+    margin: 7px 0; 
+    padding: 3px 3px;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+   
+}
+
+.text-footer{
+    margin: 35px;
+ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff; 
+    background-color: rgb(88, 85, 191);
+}
